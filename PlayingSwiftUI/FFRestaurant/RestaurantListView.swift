@@ -8,11 +8,46 @@
 import SwiftUI
 
 struct RestaurantListView: View {
+    let restaurant : Restaurant
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(restaurant.image)
+                .resizable()
+                .frame(width: 60, height: 60)
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                .aspectRatio(contentMode: .fit)
+                .shadow(radius: 8)
+                .padding(.vertical, 8)
+                .padding(.trailing, 8)
+            
+            VStack (alignment: .leading){
+                Text(restaurant.title)
+                    .font(.headline)
+                    .fontWeight(.bold)
+                Text(restaurant.subtitle)
+                    .font(.subheadline)
+                    .opacity(0.6)
+            }
+            
+            Spacer()
+        }
+        .background(.white)
     }
 }
 
 #Preview {
-    RestaurantListView()
+    var restaurant : Restaurant = Restaurant(
+        image: "example",
+        title: "Title",
+        subtitle: "Subtitle",
+        menu: [
+            MenuItem(name: "Menu Item 1", image: "example"),
+            MenuItem(name: "Menu Item 2", image: "example"),
+            MenuItem(name: "Menu Item 3", image: "example")
+        ]
+    )
+    return RestaurantListView(
+        restaurant: restaurant
+    )
 }

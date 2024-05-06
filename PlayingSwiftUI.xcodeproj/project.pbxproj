@@ -14,6 +14,13 @@
 		040830D52BE48F3E00663028 /* PlayingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040830D42BE48F3E00663028 /* PlayingSwiftUITests.swift */; };
 		040830DF2BE48F3E00663028 /* PlayingSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040830DE2BE48F3E00663028 /* PlayingSwiftUIUITests.swift */; };
 		040830E12BE48F3E00663028 /* PlayingSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040830E02BE48F3E00663028 /* PlayingSwiftUIUITestsLaunchTests.swift */; };
+		0408314E2BE8651F00663028 /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408314D2BE8651F00663028 /* Day11.swift */; };
+		040831502BE866FC00663028 /* Day11Dua.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408314F2BE866FC00663028 /* Day11Dua.swift */; };
+		040831522BE867FB00663028 /* Day11Tiga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040831512BE867FB00663028 /* Day11Tiga.swift */; };
+		040831542BE86A0000663028 /* FFRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040831532BE86A0000663028 /* FFRestaurant.swift */; };
+		040831572BE86D1200663028 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040831562BE86D1200663028 /* RestaurantListView.swift */; };
+		040831592BE86D3900663028 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040831582BE86D3900663028 /* Restaurant.swift */; };
+		0408315B2BE8784B00663028 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408315A2BE8784B00663028 /* RestaurantDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		040830DA2BE48F3E00663028 /* PlayingSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040830DE2BE48F3E00663028 /* PlayingSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingSwiftUIUITests.swift; sourceTree = "<group>"; };
 		040830E02BE48F3E00663028 /* PlayingSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0408314D2BE8651F00663028 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
+		0408314F2BE866FC00663028 /* Day11Dua.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Dua.swift; sourceTree = "<group>"; };
+		040831512BE867FB00663028 /* Day11Tiga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Tiga.swift; sourceTree = "<group>"; };
+		040831532BE86A0000663028 /* FFRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFRestaurant.swift; sourceTree = "<group>"; };
+		040831562BE86D1200663028 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		040831582BE86D3900663028 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		0408315A2BE8784B00663028 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,10 @@
 			children = (
 				040830C32BE48F3D00663028 /* PlayingSwiftUIApp.swift */,
 				040830C52BE48F3D00663028 /* ContentView.swift */,
+				0408314D2BE8651F00663028 /* Day11.swift */,
+				0408314F2BE866FC00663028 /* Day11Dua.swift */,
+				040831512BE867FB00663028 /* Day11Tiga.swift */,
+				040831552BE86CA000663028 /* FFRestaurant */,
 				040830C72BE48F3E00663028 /* Assets.xcassets */,
 				040830C92BE48F3E00663028 /* Preview Content */,
 			);
@@ -125,6 +143,17 @@
 				040830E02BE48F3E00663028 /* PlayingSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = PlayingSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		040831552BE86CA000663028 /* FFRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				040831532BE86A0000663028 /* FFRestaurant.swift */,
+				040831562BE86D1200663028 /* RestaurantListView.swift */,
+				040831582BE86D3900663028 /* Restaurant.swift */,
+				0408315A2BE8784B00663028 /* RestaurantDetailView.swift */,
+			);
+			path = FFRestaurant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040831572BE86D1200663028 /* RestaurantListView.swift in Sources */,
 				040830C62BE48F3D00663028 /* ContentView.swift in Sources */,
 				040830C42BE48F3D00663028 /* PlayingSwiftUIApp.swift in Sources */,
+				040831542BE86A0000663028 /* FFRestaurant.swift in Sources */,
+				040831592BE86D3900663028 /* Restaurant.swift in Sources */,
+				0408315B2BE8784B00663028 /* RestaurantDetailView.swift in Sources */,
+				0408314E2BE8651F00663028 /* Day11.swift in Sources */,
+				040831522BE867FB00663028 /* Day11Tiga.swift in Sources */,
+				040831502BE866FC00663028 /* Day11Dua.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

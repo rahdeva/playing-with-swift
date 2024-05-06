@@ -9,13 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+//        VStack {
+//            Spacer()
+//            HStack {
+//                Spacer()
+//                ZStack {
+//                    Image(systemName: "globe")
+//                    Text("Hello, World!")
+//                }
+//                Spacer()
+//            }
+//            Spacer()
+//            HStack(){
+//                Spacer()
+//                ZStack {
+//                    Image(systemName: "globe")
+//                    Text("Hello, World!")
+//                }
+//                Spacer()
+//            }
+//            Spacer()
+//        }
+        
+        FFRestaurant()
     }
 }
 

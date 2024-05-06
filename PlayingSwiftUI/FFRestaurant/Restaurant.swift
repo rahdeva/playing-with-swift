@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct Restaurant: Hashable {
+    var image : String
+    var title : String
+    var subtitle : String
+    var menu : [MenuItem]
+}
+
+struct MenuItem: Hashable {
+    var name : String
+    var image: String
+}

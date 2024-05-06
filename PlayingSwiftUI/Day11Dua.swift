@@ -9,7 +9,24 @@ import SwiftUI
 
 struct Day11Dua: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image(systemName: "globe")
+                .padding()
+                .background(.blue)
+            
+            VStack (alignment: .leading){
+                HStack {
+                    Text("Title")
+                    Spacer()
+                    Text("2023-12-12")
+                }
+                Text("Description")
+            }
+            
+            Spacer()
+        }
+        .padding()
+        .background(.green)
     }
 }
 
