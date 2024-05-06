@@ -37,17 +37,16 @@ struct RestaurantListView: View {
 }
 
 #Preview {
-    var restaurant : Restaurant = Restaurant(
-        image: "example",
-        title: "Title",
-        subtitle: "Subtitle",
-        menu: [
-            MenuItem(name: "Menu Item 1", image: "example"),
-            MenuItem(name: "Menu Item 2", image: "example"),
-            MenuItem(name: "Menu Item 3", image: "example")
-        ]
-    )
     return RestaurantListView(
-        restaurant: restaurant
+        restaurant: Restaurant(
+            image: "example",
+            title: "Title",
+            subtitle: "Subtitle",
+            menu: [
+                MenuItem(name: "Menu Item 1", image: "example"),
+                MenuItem(name: "Menu Item 2", image: "example"),
+                MenuItem(name: "Menu Item 3", image: "example")
+            ]
+        )
     )
 }
